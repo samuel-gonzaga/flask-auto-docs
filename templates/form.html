@@ -1,0 +1,163 @@
+{% extends "base.html" %}
+
+{% block title %}Preencher Template - {{ template.name }}{% endblock %}
+
+{% block scripts %}
+{{ super() }}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+<script>
+$(document).ready(function() {
+    // Máscaras para campos especiais
+    $('.cpf-input').mask('000.000.000-00', {reverse: true});
+    $('.cnpj-input').mask('00.000.000/0000-00', {reverse: true});
+    $('.cep-input').mask('00000-000');
+    $('.phone-input').mask('(00) 00000-0000');
+    $('.date-input').mask('00/00/0000');
+    $('.money-input').mask('000.000.000.000.000,00', {reverse: true});
+    
+    // Detecta automaticamente tipos de campos
+    $('input, textarea').each(function() {
+        var name = $(this).attr('name').toUpperCase();
+        
+        if (name.includes('CPF')) {
+            $(this).addClass('cpf-input');
+        } else if (name.includes('CNPJ')) {
+            $(this).addClass('cnpj-input');
+        } else if (name.includes('CEP')) {
+            $(this).addClass('cep-input');
+        } else if (name.includes('TEL') || name.includes('TELEFONE')) {
+            $(this).addClass('phone-input');
+        } else if (name.includes('DATA') || name.includes('DATE')) {
+            $(this).addClass('date-input');
+        } else if (name.includes('VALOR') || name.includes('MONEY') || name.includes('PREÇO')) {
+            $(this).addClass('money-input');
+        }
+    });
+});
+</script>
+{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center border-bottom mb-4">
+    <h1 class="h2">Preencher Template: {{ template.name }}</h1>
+    <a href="{{ url_for('documents.index') }}" class="btn btn-outline-secondary">
+        <i class="bi bi-arrow-left"></i> Voltar
+    </a>
+</div>
+
+<div class="row">
+    <div class="col-lg-8">
+        <div class="card">
+            <div class="card-body">
+                <form method="POST" action="{{ url_for('documents.generate_document') }}">
+                    <input type="hidden" name="template_name" value="{{ template.filename }}">
+                    <input type="hidden" name="_csrf_token" value="{{ csrf_token() }}">
+                    
+                    <div class="mb-4">
+                        <label for="output_name" class="form-label">Nome do Arquivo de Saída</label>
+                        <input type="text" class="form-control" id="output_name" name="output_name" 
+                               placeholder="documento_personalizado" required>
+                        <div class="form-text">Nome do arquivo que será gerado (sem extensão)</div>
+                    </div>
+
+                    <hr>
+
+                    <div class="alert alert-info mb-4">
+                        <i class="bi bi-info-circle"></i> Preencha todos os campos abaixo conforme solicitado.
+                        Campos marcados com <span class="text-danger">*</span> são obrigatórios.
+                    </div>
+
+                    <div class="row">
+                        {% for field in fields %}
+                        <div class="col-md-6 mb-3">
+                            <label for="{{ field.name }}" class="form-label">
+                                {{ field.label }}
+                                {% if field.required %}<span class="text-danger">*</span>{% endif %}
+                            </label>
+                            
+                            {% if 'OBS' in field.name.upper() or 'TEXTO' in field.name.upper() or 'DESCRI' in field.name.upper() %}
+                                <textarea class="form-control" id="{{ field.name }}" name="{{ field.name }}" 
+                                         rows="3" {% if field.required %}required{% endif %}
+                                         {% if field.placeholder %}placeholder="{{ field.placeholder }}"{% endif %}>
+                                    {{ field.value or '' }}
+                                </textarea>
+                            {% else %}
+                                <input type="{{ field.type }}" class="form-control" id="{{ field.name }}" 
+                                       name="{{ field.name }}" value="{{ field.value or '' }}"
+                                       {% if field.required %}required{% endif %}
+                                       {% if field.placeholder %}placeholder="{{ field.placeholder }}"{% endif %}>
+                            {% endif %}
+                            
+                            {% if 'DATA' in field.name.upper() %}
+                                <div class="form-text">Formato: DD/MM/AAAA</div>
+                            {% endif %}
+                        </div>
+                        {% endfor %}
+                    </div>
+
+                    <hr>
+
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                        <button type="reset" class="btn btn-outline-secondary me-md-2">
+                            <i class="bi bi-eraser"></i> Limpar
+                        </button>
+                        <button type="submit" class="btn btn-primary btn-lg">
+                            <i class="bi bi-download"></i> Gerar Documento
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-lg-4">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0"><i class="bi bi-info-circle"></i> Instruções</h5>
+            </div>
+            <div class="card-body">
+                <ol class="small">
+                    <li>Preencha todos os campos obrigatórios (*)</li>
+                    <li>Verifique se os dados estão corretos</li>
+                    <li>Escolha um nome para o arquivo de saída</li>
+                    <li>Clique em "Gerar Documento"</li>
+                    <li>O arquivo será baixado automaticamente</li>
+                </ol>
+                
+                <div class="alert alert-warning mt-3">
+                    <strong>Dica:</strong> O sistema reconheceu <strong>{{ placeholders_count }}</strong> campos para preenchimento neste template.
+                </div>
+                
+                <div class="alert alert-info mt-3">
+                    <strong>Formatos automáticos:</strong>
+                    <ul class="small mt-2">
+                        <li>CPF/CNPJ: máscara automática</li>
+                        <li>Datas: formato DD/MM/AAAA</li>
+                        <li>CEP: 00000-000</li>
+                        <li>Telefone: (00) 00000-0000</li>
+                        <li>Valores monetários: formatação automática</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    /* Estilo para campos obrigatórios */
+    .form-label.required:after {
+        content: " *";
+        color: #dc3545;
+    }
+    
+    /* Melhora a visualização dos campos com máscara */
+    .form-control {
+        transition: all 0.3s;
+    }
+    
+    .form-control:focus {
+        border-color: #667eea;
+        box-shadow: 0 0 0 0.25rem rgba(102, 126, 234, 0.25);
+    }
+</style>
+{% endblock %}

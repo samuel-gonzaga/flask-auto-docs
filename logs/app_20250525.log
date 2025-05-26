@@ -1,0 +1,170 @@
+2025-05-25 20:52:53,571 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-25 20:52:53,572 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-25 20:52:53,576 - werkzeug - INFO -  * Restarting with stat
+2025-05-25 20:52:54,428 - werkzeug - WARNING -  * Debugger is active!
+2025-05-25 20:52:54,435 - werkzeug - INFO -  * Debugger PIN: 189-518-736
+2025-05-25 20:52:58,118 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 20:52:58] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-05-25 20:52:58,352 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 20:52:58] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-25 20:52:58,362 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 20:52:58] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-25 20:52:58,469 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 20:52:58] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=3oqRufeI8zJGPwjAIlCq HTTP/1.1" 200 -
+2025-05-25 20:52:58,630 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 20:52:58] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-05-25 20:58:53,217 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Usuario\\Desktop\\pydocs\\main.py', reloading
+2025-05-25 20:58:53,350 - werkzeug - INFO -  * Restarting with stat
+2025-05-25 20:58:54,263 - werkzeug - WARNING -  * Debugger is active!
+2025-05-25 20:58:54,281 - werkzeug - INFO -  * Debugger PIN: 189-518-736
+2025-05-25 20:58:55,572 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 20:58:55] "GET / HTTP/1.1" 200 -
+2025-05-25 20:59:08,313 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 20:59:08] "[32mPOST /delete_template/1_Procuracao_DW.docx HTTP/1.1[0m" 302 -
+2025-05-25 20:59:08,323 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 20:59:08] "GET / HTTP/1.1" 200 -
+2025-05-25 21:00:00,455 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Usuario\\Desktop\\pydocs\\blueprints\\documents.py', reloading
+2025-05-25 21:00:00,579 - werkzeug - INFO -  * Restarting with stat
+2025-05-25 21:00:01,852 - werkzeug - WARNING -  * Debugger is active!
+2025-05-25 21:00:01,866 - werkzeug - INFO -  * Debugger PIN: 189-518-736
+2025-05-25 21:00:02,289 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:00:02] "GET / HTTP/1.1" 200 -
+2025-05-25 21:00:04,810 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:00:04] "[32mPOST /delete_template/1_Procuracao_DW.docx HTTP/1.1[0m" 302 -
+2025-05-25 21:00:04,825 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:00:04] "GET / HTTP/1.1" 200 -
+2025-05-25 21:03:12,038 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:03:12] "GET / HTTP/1.1" 200 -
+2025-05-25 21:03:16,086 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:03:16] "GET /form/1_Procuracao_DW.docx HTTP/1.1" 200 -
+2025-05-25 21:03:28,236 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:03:28] "[32mPOST /delete_template/1_Procuracao_DW.docx HTTP/1.1[0m" 302 -
+2025-05-25 21:03:28,252 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:03:28] "GET / HTTP/1.1" 200 -
+2025-05-25 21:04:51,156 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Usuario\\Desktop\\pydocs\\blueprints\\documents.py', reloading
+2025-05-25 21:04:51,392 - werkzeug - INFO -  * Restarting with stat
+2025-05-25 21:04:52,204 - werkzeug - WARNING -  * Debugger is active!
+2025-05-25 21:04:52,213 - werkzeug - INFO -  * Debugger PIN: 189-518-736
+2025-05-25 21:05:49,055 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Usuario\\Desktop\\pydocs\\config.py', reloading
+2025-05-25 21:05:49,179 - werkzeug - INFO -  * Restarting with stat
+2025-05-25 21:05:50,027 - werkzeug - WARNING -  * Debugger is active!
+2025-05-25 21:05:50,036 - werkzeug - INFO -  * Debugger PIN: 189-518-736
+2025-05-25 21:07:42,233 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:07:42] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-05-25 21:07:42,481 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:07:42] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-25 21:07:42,489 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:07:42] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-25 21:07:42,528 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:07:42] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=AEiHdkWyYpcrMAZHqKtF HTTP/1.1" 200 -
+2025-05-25 21:07:42,581 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:07:42] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-05-25 21:11:59,290 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Usuario\\Desktop\\pydocs\\main.py', reloading
+2025-05-25 21:11:59,462 - werkzeug - INFO -  * Restarting with stat
+2025-05-25 21:12:19,237 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-25 21:12:19,238 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-25 21:12:19,240 - werkzeug - INFO -  * Restarting with stat
+2025-05-25 21:12:19,974 - werkzeug - WARNING -  * Debugger is active!
+2025-05-25 21:12:19,983 - werkzeug - INFO -  * Debugger PIN: 189-518-736
+2025-05-25 21:12:22,564 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:12:22] "GET / HTTP/1.1" 200 -
+2025-05-25 21:12:46,259 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:12:46] "[32mPOST /delete_template/1_Procuracao_DW.docx HTTP/1.1[0m" 302 -
+2025-05-25 21:12:46,269 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:12:46] "GET / HTTP/1.1" 200 -
+2025-05-25 21:16:47,327 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Usuario\\Desktop\\pydocs\\blueprints\\documents.py', reloading
+2025-05-25 21:16:47,453 - werkzeug - INFO -  * Restarting with stat
+2025-05-25 21:16:48,494 - werkzeug - WARNING -  * Debugger is active!
+2025-05-25 21:16:48,500 - werkzeug - INFO -  * Debugger PIN: 189-518-736
+2025-05-25 21:16:51,686 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Usuario\\Desktop\\pydocs\\blueprints\\documents.py', reloading
+2025-05-25 21:16:51,841 - werkzeug - INFO -  * Restarting with stat
+2025-05-25 21:16:52,884 - werkzeug - WARNING -  * Debugger is active!
+2025-05-25 21:16:52,894 - werkzeug - INFO -  * Debugger PIN: 189-518-736
+2025-05-25 21:16:52,988 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:16:52] "GET / HTTP/1.1" 200 -
+2025-05-25 21:16:54,375 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:16:54] "GET /upload HTTP/1.1" 200 -
+2025-05-25 21:17:04,189 - flask_wtf.csrf - INFO - The CSRF token is missing.
+2025-05-25 21:17:04,190 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:17:04] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-05-25 21:17:15,807 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Usuario\\Desktop\\pydocs\\main.py', reloading
+2025-05-25 21:17:15,941 - werkzeug - INFO -  * Restarting with stat
+2025-05-25 21:17:16,781 - werkzeug - WARNING -  * Debugger is active!
+2025-05-25 21:17:16,790 - werkzeug - INFO -  * Debugger PIN: 189-518-736
+2025-05-25 21:17:17,392 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:17:17] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-05-25 21:17:17,475 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:17:17] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-05-25 21:17:17,660 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:17:17] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-25 21:17:17,680 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:17:17] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-25 21:17:17,760 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:17:17] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=L1ZoaAPjGtIrBaZm3KSq HTTP/1.1" 200 -
+2025-05-25 21:17:17,809 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:17:17] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-05-25 21:17:20,411 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:17:20] "GET /upload HTTP/1.1" 200 -
+2025-05-25 21:17:22,037 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:17:22] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-05-25 21:17:22,064 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:17:22] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-05-25 21:17:22,097 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:17:22] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-25 21:17:22,103 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:17:22] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-25 21:17:22,115 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:17:22] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=L1ZoaAPjGtIrBaZm3KSq HTTP/1.1[0m" 304 -
+2025-05-25 21:17:27,226 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Usuario\\Desktop\\pydocs\\main.py', reloading
+2025-05-25 21:17:27,342 - werkzeug - INFO -  * Restarting with stat
+2025-05-25 21:17:28,201 - werkzeug - WARNING -  * Debugger is active!
+2025-05-25 21:17:28,210 - werkzeug - INFO -  * Debugger PIN: 189-518-736
+2025-05-25 21:17:28,305 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:17:28] "GET / HTTP/1.1" 200 -
+2025-05-25 21:17:28,462 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:17:28] "GET /upload HTTP/1.1" 200 -
+2025-05-25 21:17:29,950 - flask_wtf.csrf - INFO - The CSRF token is missing.
+2025-05-25 21:17:29,953 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:17:29] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-05-25 21:19:40,269 - flask_wtf.csrf - INFO - The CSRF token is missing.
+2025-05-25 21:19:40,270 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:19:40] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-05-25 21:19:42,535 - flask_wtf.csrf - INFO - The CSRF token is missing.
+2025-05-25 21:19:42,537 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:19:42] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-05-25 21:20:05,639 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Usuario\\Desktop\\pydocs\\blueprints\\documents.py', reloading
+2025-05-25 21:20:05,761 - werkzeug - INFO -  * Restarting with stat
+2025-05-25 21:20:06,867 - werkzeug - WARNING -  * Debugger is active!
+2025-05-25 21:20:06,874 - werkzeug - INFO -  * Debugger PIN: 189-518-736
+2025-05-25 21:20:09,287 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:20:09] "GET /upload HTTP/1.1" 200 -
+2025-05-25 21:20:13,812 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:20:13] "GET /upload HTTP/1.1" 200 -
+2025-05-25 21:20:14,537 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:20:14] "GET /upload HTTP/1.1" 200 -
+2025-05-25 21:20:15,017 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:20:15] "GET /upload HTTP/1.1" 200 -
+2025-05-25 21:20:15,353 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:20:15] "GET /upload HTTP/1.1" 200 -
+2025-05-25 21:20:15,545 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:20:15] "GET /upload HTTP/1.1" 200 -
+2025-05-25 21:20:15,752 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:20:15] "GET /upload HTTP/1.1" 200 -
+2025-05-25 21:20:15,928 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:20:15] "GET /upload HTTP/1.1" 200 -
+2025-05-25 21:20:25,613 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:20:25] "GET /upload HTTP/1.1" 200 -
+2025-05-25 21:20:30,237 - flask_wtf.csrf - INFO - The CSRF token is missing.
+2025-05-25 21:20:30,238 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:20:30] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-05-25 21:20:33,070 - flask_wtf.csrf - INFO - The CSRF token is missing.
+2025-05-25 21:20:33,070 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:20:33] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-05-25 21:21:13,407 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:21:13] "GET /upload HTTP/1.1" 200 -
+2025-05-25 21:21:17,675 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:21:17] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-05-25 21:21:17,715 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:21:17] "GET / HTTP/1.1" 200 -
+2025-05-25 21:32:48,759 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:32:48] "GET / HTTP/1.1" 200 -
+2025-05-25 21:32:50,472 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:32:50] "GET / HTTP/1.1" 200 -
+2025-05-25 21:32:51,177 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:32:51] "GET / HTTP/1.1" 200 -
+2025-05-25 21:32:52,271 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:32:52] "GET /upload HTTP/1.1" 200 -
+2025-05-25 21:32:53,487 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:32:53] "GET / HTTP/1.1" 200 -
+2025-05-25 21:32:54,827 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:32:54] "GET / HTTP/1.1" 200 -
+2025-05-25 21:32:55,131 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:32:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-25 21:33:04,068 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:33:04] "GET / HTTP/1.1" 200 -
+2025-05-25 21:33:04,498 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:33:04] "GET / HTTP/1.1" 200 -
+2025-05-25 21:33:04,771 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:33:04] "GET / HTTP/1.1" 200 -
+2025-05-25 21:33:05,133 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:33:05] "GET /upload HTTP/1.1" 200 -
+2025-05-25 21:33:05,612 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:33:05] "GET / HTTP/1.1" 200 -
+2025-05-25 21:33:05,899 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:33:05] "GET / HTTP/1.1" 200 -
+2025-05-25 21:33:52,686 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Usuario\\Desktop\\pydocs\\blueprints\\documents.py', reloading
+2025-05-25 21:34:01,555 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-25 21:34:01,556 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-25 21:34:01,560 - werkzeug - INFO -  * Restarting with stat
+2025-05-25 21:34:02,344 - werkzeug - WARNING -  * Debugger is active!
+2025-05-25 21:34:02,351 - werkzeug - INFO -  * Debugger PIN: 189-518-736
+2025-05-25 21:34:03,381 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:34:03] "GET / HTTP/1.1" 200 -
+2025-05-25 21:34:12,608 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:34:12] "GET / HTTP/1.1" 200 -
+2025-05-25 21:34:13,257 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:34:13] "GET / HTTP/1.1" 200 -
+2025-05-25 21:34:13,593 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:34:13] "GET / HTTP/1.1" 200 -
+2025-05-25 21:34:19,850 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:34:19] "GET / HTTP/1.1" 200 -
+2025-05-25 21:34:20,852 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:34:20] "GET / HTTP/1.1" 200 -
+2025-05-25 21:34:21,131 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:34:21] "GET / HTTP/1.1" 200 -
+2025-05-25 21:34:21,353 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:34:21] "GET / HTTP/1.1" 200 -
+2025-05-25 21:34:21,866 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:34:21] "GET / HTTP/1.1" 200 -
+2025-05-25 21:34:22,335 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:34:22] "GET /upload HTTP/1.1" 200 -
+2025-05-25 21:34:23,370 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:34:23] "GET / HTTP/1.1" 200 -
+2025-05-25 21:34:25,671 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:34:25] "[32mPOST /delete_template/1_Procuracao_DW.docx HTTP/1.1[0m" 302 -
+2025-05-25 21:34:25,681 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:34:25] "GET / HTTP/1.1" 200 -
+2025-05-25 21:34:44,201 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:34:44] "GET / HTTP/1.1" 200 -
+2025-05-25 21:34:45,409 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:34:45] "GET /upload HTTP/1.1" 200 -
+2025-05-25 21:34:49,670 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:34:49] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-05-25 21:34:49,678 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:34:49] "GET / HTTP/1.1" 200 -
+2025-05-25 21:34:51,775 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:34:51] "[32mPOST /delete_template/1_Procuracao_DW.docx HTTP/1.1[0m" 302 -
+2025-05-25 21:34:51,788 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:34:51] "GET / HTTP/1.1" 200 -
+2025-05-25 21:36:16,430 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:36:16] "GET / HTTP/1.1" 200 -
+2025-05-25 21:39:02,289 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:39:02] "GET /upload HTTP/1.1" 200 -
+2025-05-25 21:39:07,242 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:39:07] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-05-25 21:39:07,249 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:39:07] "GET / HTTP/1.1" 200 -
+2025-05-25 21:39:09,475 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:39:09] "GET /form/contratacao.txt HTTP/1.1" 200 -
+2025-05-25 21:45:00,737 - flask_wtf.csrf - INFO - The CSRF token is missing.
+2025-05-25 21:45:00,741 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:45:00] "[31m[1mPOST /generate HTTP/1.1[0m" 400 -
+2025-05-25 21:46:52,168 - flask_wtf.csrf - INFO - The CSRF token is missing.
+2025-05-25 21:46:52,174 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:46:52] "[31m[1mPOST /generate HTTP/1.1[0m" 400 -
+2025-05-25 21:46:53,849 - flask_wtf.csrf - INFO - The CSRF token is missing.
+2025-05-25 21:46:53,850 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:46:53] "[31m[1mPOST /generate HTTP/1.1[0m" 400 -
+2025-05-25 21:46:55,158 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:46:55] "GET /form/contratacao.txt HTTP/1.1" 200 -
+2025-05-25 21:46:57,628 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:46:57] "GET /form/contratacao.txt HTTP/1.1" 200 -
+2025-05-25 21:46:57,847 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:46:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-25 21:47:23,656 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:47:23] "POST /generate HTTP/1.1" 200 -
+2025-05-25 21:48:56,880 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:48:56] "GET / HTTP/1.1" 200 -
+2025-05-25 21:49:01,514 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:49:01] "[32mPOST /delete_template/contratacao.txt HTTP/1.1[0m" 302 -
+2025-05-25 21:49:01,524 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 21:49:01] "GET / HTTP/1.1" 200 -
